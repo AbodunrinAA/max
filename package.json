@@ -1,0 +1,28 @@
+{
+  "name": "max",
+  "version": "1.0.0",
+  "description": "max backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Abodunrin AbdulGafar",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7",
+    "sqlite": "^4.0.21",
+    "sqlite3": "^5.0.2",
+    "swagger-jsdoc": "^6.0.0",
+    "swagger-ui-express": "^4.1.6",
+    "tedious": "^11.0.7"
+  },
+  "devDependencies": {
+    "@babel/preset-stage-0": "^7.8.3",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
